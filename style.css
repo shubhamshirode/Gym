@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-margin-block: 0;
+}
+.container{
+    width: 100%;
+}
+
+section>h2{
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+/* Section 1 */
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(3, 0, 12, 0.9),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+}
+nav h1 span{
+    color: orangered;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.227);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    /* margin-left: 40px; */
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    color: rgb(227, 224, 224);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Protest Strike", sans-serif;
+}
+.content h1{
+    color: rgb(227, 226, 226);
+    font-size: 5rem;
+    font-weight: 900;
+    padding: 2rem 1rem;
+
+}
+.content h1 span{
+    color: orangered;
+}
+.content a{
+    text-decoration: none;
+    font-size: 13px;
+    background-color: orangered;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+}
+.black-video{
+    position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+
+}
+
+/* Section 2 */
+.section2{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+.section2 h2 span{
+    color:orangered;
+}
+.section2 img{
+    height: 1rem;
+    width: 3rem;
+    margin: 1rem 0;
+    /* padding: 2rem 0; */
+}
+.section2 .box{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+    margin-top: 4rem; 
+    
+}
+.section2 .box .box-contain{
+    display: flex;    
+}
+
+.section2 .box .box-text{
+    /* border: 1px solid black; */
+    display: flex; 
+    flex-direction: row; 
+    justify-content:center;
+    text-align: left;
+}
+.section2 .box .box-text img{
+    height: 7rem;
+    width: 7rem;
+    margin: 0 2rem;
+    
+}
+.section2 .box .box-text p{
+    margin: 1rem 0;
+}
+.section2 .box .box-text a{
+    color: orangered;
+    text-decoration: none;
+}
+/* Section 3 */
+.section3{
+    border: 1px solid black;
+    height: auto;
+    margin: 5rem 0;
+    padding: 5rem 2rem;
+    background-image: url("assest/cta-bg.jpg");
+    background-size: 100% 100%;
+}
+.section3 div{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+    color: white
+}
+.section3 div h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.section3 div h2 span{
+    color:orangered;
+}
+.section3 div p{
+    margin: 2rem;
+    text-align: center;
+}
+.section3 div a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 1rem 2rem;
+}
+/* Section 4 */
+.section4{
+    /* height: 120vh; */
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.section4 h2 span{
+    color:orangered;
+}
+.section4 img{
+    height: 1rem;
+    width: 3rem;
+    margin: 1rem 0;
+}
+.section4 p{
+    margin: 2rem 0;
+}
+.section4>div{
+    display: flex;
+    text-align: left;
+
+}
+.sect4-div1{
+    width:50%;
+}
+.sect4-div1 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px  rgb(231, 229, 229);
+    padding: 0.5rem;
+    margin: 1rem 2rem 3rem 2rem;
+    gap: 1rem;
+    height: 6rem;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+.sect4-div1 .last{
+    background-color: orangered;
+    color: white;
+}
+.sect4-div1 div p{
+    padding:  0 1rem;
+}
+.sect4-div2{
+    width: 100%;
+    margin: 0 5rem;
+}
+.sect4-div2 img{
+    height: 45%;
+    width: 100%;
+    border-radius: 10px;
+}
+.sect4-div2 h2{
+    margin: 1rem 0;
+}
+.sect4-div2 p{
+    margin: 2rem 0;
+}
+.section4 div a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 1rem 2rem;    
+}
+
+/* Section 5 */
+.section5{
+    background-image: url("assest/schedule-bg.jpg");
+    height: 150vh;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+}
+.section5 h2 span{
+    color: orangered;
+}
+.section5 img{
+    margin: 2rem;
+}
+.section5 .days {
+    margin: 2rem 0;     
+}
+.section5 .days a{
+    padding: 1rem;
+}
+table,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 2.5rem 3rem;
+}
+.days{
+    position: relative;
+}
+.days a:hover{
+    background-color: orangered;
+}
+
+.monday:hover{
+    background-color: navy;
+}
+.mon{
+    position: absolute;
+    /* visibility: collapse; */
+    
+}
+
+.monday:hover  .mon{
+    visibility: visible;
+}
+/* Section 6 */
+.section6{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.section6 img{
+    margin: 2rem;
+}
+.sect6-div{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.sect6-div > div{
+    box-shadow: 1px 1px 5px 1px rgb(245, 212, 212);
+    margin: 1rem;
+    padding: 2rem;
+}
+.sect6-div img{
+    margin: 0;
+}
+.sect6-div div img+p{
+    color: orangered;
+}
+.sect6-div p{
+    margin: 0.5rem 0;
+    color: gray;
+}
+.sect6-div h2{
+    margin: 0.5rem 0;
+}
+.sect6-div i{
+    color: black;
+    margin: 0.5rem  1rem 0.5rem 0;
+}
+.sect6-div a:hover{
+    color: orangered;
+    /* background-color: navy; */
+}
+
+/* Section 7 */
+.section7{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.sect7{
+    background-image:url("assest/contact-bg.jpg") ;
+    width: 600px;
+    height: 450px;
+}
+.sect7-cont{
+    height: 85%;
+    width: 80%;
+    margin: 3rem auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/
+    align-items: center;
+}
+.sect7-count-text{
+    
+    padding: 1rem;
+}
+.sect7-count-text div{
+    display: flex;
+}
+.sect7-count-text .name{
+    margin-right: 0.5rem;
+}
+.sect7-count-text input{
+    padding: 1rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-color: rgba(0, 0, 0, 0.092);
+}
+.sect7-count-text textarea{
+    width: 100%;
+    padding: 1rem;
+    height: 45%;
+    border-color: rgba(0, 0, 0, 0.092);
+}
+.sect7-count-text button{
+    padding: 1rem ;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-top: 0.5rem;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width=768px) {
+    
+}
+@media screen and (max-width=425px) {
+    
+}
+
+
+
+
+/* Aspect ratio is generally used to determine the relative horizontal and vertical sizes of computer graphics. For example, if a computer graphic has an aspect ratio of 3:1, this means the width of the graphic is three times of the height of the image. 16:9 aspect ratio = 9 / 16 = 0.5625 = padding-top: 56.25% */
+@media (min-aspect-ratio:16/9){
+    .black-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .black-video{
+        width: auto;
+        height: 100%;
+    }
+}
