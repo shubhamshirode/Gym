@@ -145,7 +145,7 @@ nav ul li a {
 /* Section 2 */
 .section2 {
     height: auto;
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -170,25 +170,26 @@ nav ul li a {
     width: 100%;
     margin: auto;
     justify-content: space-around;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 4rem;
 }
 
-.section2 .box .box-contain {
+.section2  .box-contain {
     display: flex;
 }
 
-.section2 .box .box-text {
+.section2  .box-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: left;
+    padding: 1rem;
 }
 
 .section2 .box .box-text img {
     height: 7rem;
     width: 7rem;
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .section2 .box .box-text p {
@@ -509,6 +510,7 @@ footer {
 @media screen and (max-width:768px) {}
 
 @media screen and (max-width:425px) {
+    
     .menu {
         display: none;
     }
@@ -526,19 +528,25 @@ footer {
     }
 
     .content {
-        margin-top: 7rem;
+        margin-top: 2rem;
     }
 
     .section2 .box {
         gap: 0rem;
-        margin: 0;
-        width: auto;
+        margin: auto;
+        width: 100%;
     }
-
+    .section2 .box-contain{
+        display: block;
+    }
     .section2 .box-contain {
-        width: 45%;
+        /* width:100%; */
     }
-
+    .section2 .box .box-text img {
+        height: 60%;
+        width: 60%;
+        /* margin: 0 2rem; */
+    }
     .section2 .box .box-text {
         text-align: center;
         margin: 1rem;
