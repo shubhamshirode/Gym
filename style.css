@@ -479,7 +479,12 @@ td {
     margin: 0.5rem 0;
     border-color: rgba(0, 0, 0, 0.092);
 }
-
+.sect7-count-text input::placeholder{
+    color: black;
+} 
+.sect7-count-text textarea::placeholder{
+    color: black;
+} 
 .sect7-count-text textarea {
     width: 100%;
     padding: 1rem;
@@ -488,11 +493,15 @@ td {
 }
 
 .sect7-count-text button {
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: orangered;
     color: white;
     border: none;
     margin-top: 0.5rem;
+    font-size:1rem
+}
+.sect7-count-text button:hover{
+    cursor: pointer;
 }
 
 footer {
